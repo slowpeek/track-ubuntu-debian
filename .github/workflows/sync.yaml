@@ -1,0 +1,47 @@
+name: sync
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Make changes
+        run: |
+          set -x
+          PS4='+ $LINENO: '
+
+          dl() {
+            local st temp=/tmp/dl.html
+
+            st=$(curl -s -m60 -o "$temp" -w '%{http_code}\n' "$1")
+            [[ $st == 200 ]]
+
+            grep -oP '(?<=>)[^<]+/(?=</a>)' "$temp" > "$2"
+          }
+
+          dl http://deb.debian.org/debian/dists/ debian.txt
+          dl http://archive.debian.org/debian/dists/ debian-old.txt
+
+          dl http://archive.ubuntu.com/ubuntu/dists/ ubuntu.txt
+          dl http://old-releases.ubuntu.com/ubuntu/dists/ ubuntu-old.txt
+
+      - name: Commit and push changes
+        run: |
+          if ! git diff --quiet; then
+            git add -u
+            git commit -m "update $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
