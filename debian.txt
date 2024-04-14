@@ -11,14 +11,10 @@ bullseye-backports/
 bullseye-proposed-updates/
 bullseye-updates/
 bullseye/
-buster-backports-sloppy/
-buster-backports/
 buster-proposed-updates/
 buster-updates/
 buster/
 experimental/
-oldoldstable-backports-sloppy/
-oldoldstable-backports/
 oldoldstable-proposed-updates/
 oldoldstable-updates/
 oldoldstable/
