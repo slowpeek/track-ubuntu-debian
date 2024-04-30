@@ -33,6 +33,11 @@ noble-proposed/
 noble-security/
 noble-updates/
 noble/
+oracular-backports/
+oracular-proposed/
+oracular-security/
+oracular-updates/
+oracular/
 trusty-backports/
 trusty-proposed/
 trusty-security/
