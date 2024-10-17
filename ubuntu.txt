@@ -38,6 +38,11 @@ oracular-proposed/
 oracular-security/
 oracular-updates/
 oracular/
+plucky-backports/
+plucky-proposed/
+plucky-security/
+plucky-updates/
+plucky/
 trusty-backports/
 trusty-proposed/
 trusty-security/
