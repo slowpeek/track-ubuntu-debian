@@ -93,6 +93,11 @@ lucid-proposed/
 lucid-security/
 lucid-updates/
 lucid/
+mantic-backports/
+mantic-proposed/
+mantic-security/
+mantic-updates/
+mantic/
 maverick-backports/
 maverick-proposed/
 maverick-security/
