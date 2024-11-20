@@ -23,11 +23,6 @@ lunar-proposed/
 lunar-security/
 lunar-updates/
 lunar/
-mantic-backports/
-mantic-proposed/
-mantic-security/
-mantic-updates/
-mantic/
 noble-backports/
 noble-proposed/
 noble-security/
