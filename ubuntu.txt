@@ -18,11 +18,6 @@ jammy-proposed/
 jammy-security/
 jammy-updates/
 jammy/
-lunar-backports/
-lunar-proposed/
-lunar-security/
-lunar-updates/
-lunar/
 noble-backports/
 noble-proposed/
 noble-security/

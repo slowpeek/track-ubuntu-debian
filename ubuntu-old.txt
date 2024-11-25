@@ -93,6 +93,11 @@ lucid-proposed/
 lucid-security/
 lucid-updates/
 lucid/
+lunar-backports/
+lunar-proposed/
+lunar-security/
+lunar-updates/
+lunar/
 mantic-backports/
 mantic-proposed/
 mantic-security/
