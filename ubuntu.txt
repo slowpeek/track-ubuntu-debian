@@ -33,6 +33,11 @@ plucky-proposed/
 plucky-security/
 plucky-updates/
 plucky/
+questing-backports/
+questing-proposed/
+questing-security/
+questing-updates/
+questing/
 trusty-backports/
 trusty-proposed/
 trusty-security/

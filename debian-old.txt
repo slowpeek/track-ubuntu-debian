@@ -1,5 +1,10 @@
 Debian-0.93R6/
 bo/
+bullseye-backports-sloppy/
+bullseye-backports/
+bullseye-proposed-updates/
+bullseye-updates/
+bullseye/
 buster-backports-sloppy/
 buster-backports/
 buster-proposed-updates/
