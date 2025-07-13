@@ -1,4 +1,3 @@
-Debian10.13/
 Debian11.11/
 Debian12.11/
 bookworm-backports-sloppy/
@@ -11,13 +10,7 @@ bullseye-backports/
 bullseye-proposed-updates/
 bullseye-updates/
 bullseye/
-buster-proposed-updates/
-buster-updates/
-buster/
 experimental/
-oldoldstable-proposed-updates/
-oldoldstable-updates/
-oldoldstable/
 oldstable-backports-sloppy/
 oldstable-backports/
 oldstable-proposed-updates/
