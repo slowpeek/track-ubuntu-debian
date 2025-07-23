@@ -5,12 +5,10 @@ bookworm-backports/
 bookworm-proposed-updates/
 bookworm-updates/
 bookworm/
-bullseye-backports/
 bullseye-proposed-updates/
 bullseye-updates/
 bullseye/
 experimental/
-oldstable-backports-sloppy/
 oldstable-proposed-updates/
 oldstable-updates/
 oldstable/
