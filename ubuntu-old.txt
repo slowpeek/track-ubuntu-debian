@@ -118,6 +118,11 @@ oneiric-proposed/
 oneiric-security/
 oneiric-updates/
 oneiric/
+oracular-backports/
+oracular-proposed/
+oracular-security/
+oracular-updates/
+oracular/
 precise-backports/
 precise-proposed/
 precise-security/
