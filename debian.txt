@@ -4,11 +4,9 @@ Debian13.0/
 bookworm-backports-sloppy/
 bookworm-backports/
 bookworm-proposed-updates/
-bookworm-r0/
 bookworm-updates/
 bookworm/
 bullseye-proposed-updates/
-bullseye-r0/
 bullseye-updates/
 bullseye/
 experimental/
@@ -38,7 +36,6 @@ testing/
 trixie-backports-sloppy/
 trixie-backports/
 trixie-proposed-updates/
-trixie-r0/
 trixie-updates/
 trixie/
 unstable/
