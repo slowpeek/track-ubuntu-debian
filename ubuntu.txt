@@ -23,11 +23,6 @@ noble-proposed/
 noble-security/
 noble-updates/
 noble/
-oracular-backports/
-oracular-proposed/
-oracular-security/
-oracular-updates/
-oracular/
 plucky-backports/
 plucky-proposed/
 plucky-security/
