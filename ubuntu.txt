@@ -38,6 +38,11 @@ resolute-proposed/
 resolute-security/
 resolute-updates/
 resolute/
+stonking-backports/
+stonking-proposed/
+stonking-security/
+stonking-updates/
+stonking/
 trusty-backports/
 trusty-proposed/
 trusty-security/
