@@ -1,6 +1,6 @@
 Debian11.11/
-Debian12.13/
-Debian13.4/
+Debian12.14/
+Debian13.5/
 bookworm-backports-sloppy/
 bookworm-backports/
 bookworm-proposed-updates/
