@@ -43,6 +43,11 @@ stonking-proposed/
 stonking-security/
 stonking-updates/
 stonking/
+tenacious-backports/
+tenacious-proposed/
+tenacious-security/
+tenacious-updates/
+tenacious/
 trusty-backports/
 trusty-proposed/
 trusty-security/
